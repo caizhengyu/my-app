@@ -4,14 +4,15 @@ import { Link, Redirect } from "react-router-dom";
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import Banner from "../Banner";
+import banner_1 from "./images/banner-1.jpg";
+import banner_2 from "./images/banner-2.jpg";
+import banner_3 from "./images/banner-3.jpg";
 
 
 class Home extends React.Component {
 	constructor(props){
 		super(props);
-		this.images = ["http://elambacademy.com/wp-content/uploads/2018/08/banner-1-2.jpg",
-						"http://elambacademy.com/wp-content/uploads/2018/08/banner-2-2.jpg",
-						"http://elambacademy.com/wp-content/uploads/2018/08/banner-3.jpg"];
+		this.images = [banner_1, banner_2, banner_3];
 		this.messages = ["We Are Professional & Inspirational",
 						"Innovative School for Modern-day Students",
 						"Individual Education Plan for Every Student"];
