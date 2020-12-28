@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
 import Home from './Home';
+import About from './About';
 import React from 'react';
 
 class App extends React.Component {
@@ -11,6 +12,7 @@ class App extends React.Component {
                 <BrowserRouter>
                     <Switch>
                         <Route exact path='/' render={() => (<Home/>)}/>
+                        <Route exact path='/About' render={() => (<About/>)}/>
                     </Switch>
                 </BrowserRouter>
             </div>
