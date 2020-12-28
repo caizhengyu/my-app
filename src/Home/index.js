@@ -10,15 +10,15 @@ import banner_3 from "./images/banner-3.jpg";
 
 
 class Home extends React.Component {
-	constructor(props){
-		super(props);
-		this.images = [banner_1, banner_2, banner_3];
-		this.messages = ["We Are Professional & Inspirational",
-						"Innovative School for Modern-day Students",
-						"Individual Education Plan for Every Student"];
-	}
+    constructor(props){
+        super(props);
+        this.images = [banner_1, banner_2, banner_3];
+        this.messages = ["We Are Professional & Inspirational",
+                        "Innovative School for Modern-day Students",
+                        "Individual Education Plan for Every Student"];
+    }
 
-	getSlider = () => {
+    getSlider = () => {
         let items = []
         for (let i = 0; i < this.images.length; i++){
             items.push(
@@ -34,12 +34,12 @@ class Home extends React.Component {
 
     render(){
         return (
-        	<div>
-	        	<Banner/>
-	        	<div className="slide-container">
-				    {this.getSlider()}
-				</div>
-			</div>
+            <div>
+                <Banner/>
+                <div className="slide-container">
+                    {this.getSlider()}
+                </div>
+            </div>
         )
     }
 }
