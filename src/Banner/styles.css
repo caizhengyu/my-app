@@ -11,7 +11,7 @@
 
 .header{
   padding-top: 17px;
-  padding-left: 15%;
+  padding-left: 17%;
   padding-right: 15%;
   padding-bottom: 50px;
   font-weight: 600;
@@ -21,7 +21,6 @@
 
 .option{
   display: inline-block;
-  text-align: center;
   width: 16%;
 }
 
