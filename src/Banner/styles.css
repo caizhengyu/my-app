@@ -10,18 +10,19 @@
 
 
 .header{
-  padding-top: 16px;
+  padding-top: 17px;
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 50px;
   font-weight: 600;
   border-bottom: 2px solid lightgrey;
+
 }
 
 .option{
-  padding-left: 5%;
-  padding-right: 5%;
   display: inline-block;
+  text-align: center;
+  width: 16%;
 }
 
 
