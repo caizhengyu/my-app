@@ -18,10 +18,10 @@ class Banner extends React.Component {
                             <Link to={"../About"}>About Us</Link>
                         </div>
                     </div>
-                    <div className="option">About Us</div>
-                    <div className="option dropdown">Classes</div>
-                    <div className="option">About Us</div>
-                    <div className="option dropdown">Classes</div>
+                    <div className="option">Teacher</div>
+                    <div className="option dropdown">Summer/Winter Camp</div>
+                    <div className="option">Schedule</div>
+                    <div className="option dropdown">Contact</div>
                 </div>
             </div>
         )
