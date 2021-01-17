@@ -16,14 +16,22 @@
   padding-bottom: 50px;
   font-weight: 600;
   border-bottom: 2px solid lightgrey;
-
 }
 
 .option{
   display: inline-block;
   width: 16%;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 }
 
+.textButton{
+  cursor: pointer;
+}
 
 .dropbtn {
   padding: 16px;

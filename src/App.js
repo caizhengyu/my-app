@@ -13,6 +13,11 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' render={() => (<Home/>)}/>
                         <Route exact path='/About' render={() => (<About/>)}/>
+                        <Route exact path='/English' render={() => (<About/>)}/>
+                        <Route exact path='/French' render={() => (<About/>)}/>
+                        <Route exact path='/Math' render={() => (<About/>)}/>
+                        <Route exact path='/Debate' render={() => (<About/>)}/>
+                        <Route exact path='/Music' render={() => (<About/>)}/>
                     </Switch>
                 </BrowserRouter>
             </div>
