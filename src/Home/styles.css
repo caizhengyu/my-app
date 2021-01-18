@@ -17,4 +17,17 @@
 .Intro{
   line-height: 3;
   padding-left: 2.5%;
+  display: none;
+}
+
+.introText{
+  display: block;
+  margin: auto;
+}
+
+.introContainer{
+}
+
+.homeContainer{
+  background-color: rgb(255, 237, 220);
 }
