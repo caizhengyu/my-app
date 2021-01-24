@@ -8,7 +8,7 @@ import banner_0 from "./images/banner-0.png";
 // import banner_1 from "./images/banner-1.png";
 import banner_2 from "./images/banner-2.png";
 import banner_3 from "./images/banner-3.png";
-import introText from "./images/intro.png";
+import intro from "./images/intro.png";
 
 
 class Home extends React.Component {
@@ -53,7 +53,7 @@ AppleSmart现在由有共同理念和信心的妈妈们辛勤地耕耘着，一�
 同舟共济，未来可期！感谢有你们的支持和理解！[Heart]</div>
 
                 <div className="introContainer">
-                <img className="introText"src={introText}/>
+                <img className="introText" src={intro} />
                 </div>
             </div>
         )
